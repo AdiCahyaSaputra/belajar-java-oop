@@ -11,4 +11,15 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
+
+	// constructer overloading 
+	Person(Integer age) {
+		this.name = "Tidak Dikenali";
+		this.age = age;
+	}
+
+	// Memanggil constructer lain 
+	Person() {
+		this(null); // memanggil constructer yg param nya cuma age 
+	}
 }
