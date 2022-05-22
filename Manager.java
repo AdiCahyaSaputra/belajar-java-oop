@@ -1,11 +1,10 @@
-class Manager {
-	String name;
+class Manager extends Employee{
 
 	Manager(String name) {
-		this.name = name;
+		super(name);
 	}
 
 	void sayHai() {
-		System.out.println(this.name);
+		System.out.println(this.name + " From Manager");
 	}
 }

@@ -11,6 +11,10 @@ class VicePresident extends Manager {
 
 	// method overriding ( sama kek overloading tapi beda ) 
 	void sayHai(String name) {
-		System.out.println(name + " From method overriding");
+		System.out.println(this.name + " From method overriding");
+	}
+
+	void sayHai() {
+		System.out.println(this.name + " From VicePresident");
 	}
 }
