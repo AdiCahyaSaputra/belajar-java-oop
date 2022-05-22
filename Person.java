@@ -14,7 +14,7 @@ class Person {
 
 	// constructer overloading 
 	Person(Integer age) {
-		this.name = "Tidak Dikenali";
+		this.name = null;
 		this.age = age;
 	}
 
